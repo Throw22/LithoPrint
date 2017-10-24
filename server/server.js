@@ -64,11 +64,6 @@ app.use((req, res, next) => {
 //
 const serverRoutes = require('./routes/index');
 app.use('/server', serverRoutes);
-//
-// const emailRoutes = require("./routes/emailRoutes");
-// app.use("/api", emailRoutes);
-// const userRoutes = require("./routes/userRoutes");
-// app.use("/api", userRoutes);
 
 // ----------------------------------------
 // Error handler
